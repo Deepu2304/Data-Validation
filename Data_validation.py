@@ -3,7 +3,7 @@ import zipfile
 import os
 
 
-# function to unzip the files
+# function to unzip the file
 def unzip_files(zip_file_paths, extracted_path):
     for zip_file in zip_file_paths:
         with zipfile.ZipFile(zip_file, 'r') as zip_ref:
